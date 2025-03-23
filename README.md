@@ -15,4 +15,4 @@ My project, EzFinance, is a finance manager application. This application is mea
 
 # 3. Track your finances
 
-  * After everything is setup, you can view everything from one window, being able to see your budgets, income, and the ammount of allocated funds in the form of a pie chart. You will also be       able to see how much money you can allocate towards misc. things, like hobbies or just fun things for yourself.
+  * After everything is setup, you can view everything from the Overview window, being able to see your budgets, income, and the ammount of allocated funds in the form of a pie chart. You will      also be able to see how much money you can allocate towards misc. things, like hobbies or just fun things for yourself.
