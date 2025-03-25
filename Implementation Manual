@@ -1,13 +1,13 @@
-# Implementation Manual
+Implementation Manual
 -----------------------
 This manual covers more in depth details about EzFinance and how it works
 
-# Design
+Design
 --------
 In terms of it's design, it uses a multitude of different windows for every application. The main screen where you login is its own screen, the main menu is its own screen, and so on. For me personally,
 it feels that doing it this way will allow for more flexibility when managing all of the windows. 
 
-# Implementation
+Implementation
 ---------------
 There are a lot of classes that had to be used to achieve what EzFinance is now, meaning they all need to work in unison. In order to acheive this relationship, I made it so that certain classes
 use each other properly where needed. For example, the EzFinance class uses the LoginWindow, SignupWindow, and Userdata classes in order to achieve the desired result. I chose to do it this way
