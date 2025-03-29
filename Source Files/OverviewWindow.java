@@ -58,8 +58,12 @@ public class OverviewWindow {
         //------------------------------------------------------------------
         //calculate leftover funds
         //------------------------------------------------------------------
+        double dailyIncome = totalIncome * 8;
+        double weeklyIncome = dailyIncome * 5;
+        double monthlyIncome = weeklyIncome * 4;
 
-        double leftoverFunds = totalIncome - totalBudgetExpenses;
+
+        double leftoverFunds = (monthlyIncome * .7) - totalBudgetExpenses;
         Label leftoverFundsLabel = new Label("Leftover Funds: $" + String.format("%.2f", leftoverFunds));
         leftoverFundsLabel.setStyle("-fx-font-size: 16px; -fx-font-weight: bold;");
 
